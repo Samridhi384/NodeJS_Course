@@ -1,0 +1,29 @@
+My name is sam. This is my node js folder
+
+
+
+npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js 
+
+for eg npm i validator@13.11.0
+
+The process object is a global object and can be accessed from anywhere.
+
+Yargs helps you build interactive command line tools, by parsing arguments and generating an elegant user interface.
+
+yargs has 2 properties first is the  command line arguments passed to your script, second one is file name  of the current script being executed. and also contains options such as help 
+
+
+
+
+edge://inspect/#devices
+
+node --inspect-brk app2.js add --title="tuesday" --body="my body"
+
+
+Debugger listening on ws://127.0.0.1:9229/9bd61797-2679-43b2-90d6-5facb93a1567
+For help, see: https://nodejs.org/en/docs/inspector
+Debugger attached.
+
+
+
+  debugger; command compulsory to write

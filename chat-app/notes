@@ -1,0 +1,14 @@
+web socket is a full duplex protocol
+here full duplex means that the client can send data to server and also receive data from server at any time that is 2 way communication.
+
+socket.emit is for client
+socket.on is for server
+
+`socket.emit` is used to send a message from the client to the server, while `socket.on` is used to listen for and receive messages from the server on the client side.
+
+// socket.emit - Sends data to this individual socket id only
+// io.emit- sends data to all connected sockets including the one that sent the message
+// socket.broadcast.emit- sends data to everyone but the socket that sent the message
+
+    // io.to.emit- used for specific users or rooms
+    // socket.broadcast.to.emit- used for sending to everyone in a room excluding the sender
